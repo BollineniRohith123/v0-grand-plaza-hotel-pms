@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Grand Plaza Hotel - Property Management System",
   description: "Professional hotel management system for Grand Plaza Hotel",
-  generator: "v0.app",
+  // removed v0.app generator string to avoid exposing v0 branding
 }
 
 export default function RootLayout({
